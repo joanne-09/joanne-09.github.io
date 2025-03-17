@@ -406,13 +406,6 @@ section:nth-child(even) {
     background-color: var(--accent);
 }
 
-/* Projects Section */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 30px;
-}
-
 /* Pagination Controls */
 .pagination-controls {
     display: flex;
@@ -472,6 +465,7 @@ section:nth-child(even) {
     }
 }
 
+/* Projects Section */
 .project-card {
     background-color: var(--background);
     border-radius: 10px;
@@ -490,6 +484,7 @@ section:nth-child(even) {
     background-color: var(--light);
     background-size: cover;
     background-position: center;
+    flex-shrink: 0;
 }
 
 .project-image img {
