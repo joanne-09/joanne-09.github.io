@@ -486,7 +486,6 @@ section:nth-child(even) {
 }
 
 .project-image {
-    width: 350px;
     height: 200px;
     background-color: var(--light);
     background-size: cover;
