@@ -185,6 +185,7 @@
         border-radius: 50%;
         display: inline-block;
         background-image: url('./images/profile.jpg');
+        background-position: 50% 60%;
         background-size: cover;
         border: 5px solid var(--border);
     }
